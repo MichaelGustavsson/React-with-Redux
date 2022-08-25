@@ -1,0 +1,17 @@
+.reaction {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: solid 1px #333;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.reaction h3 {
+  text-align: center;
+}
+
+.reaction img {
+  width: 100%;
+}
