@@ -16,4 +16,4 @@ För övningarna **ex8.1-1, ex8.1-2** samt **ex8.2** så finns det ett enkelt Re
 Skriv kommandot `npm run dev` för att starta servern.
 
 ##OBS!!!
-För att köra varje övning så glöm inte att köra kommandot `npm install` och sedan ```npm start````
+För att köra varje övning så glöm inte att köra kommandot `npm install` och sedan `npm start`
