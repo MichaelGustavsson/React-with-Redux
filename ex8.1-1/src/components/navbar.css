@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  padding: 0 2rem;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  border-bottom: solid 2px #577ac0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .logo {
+  font-weight: 400;
+}
+
+.navbar .active-link {
+  border-bottom: solid 2px #577ac0;
+}

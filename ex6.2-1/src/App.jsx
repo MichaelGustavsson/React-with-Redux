@@ -1,4 +1,4 @@
-import { Component, Fragment } from 'react';
+import { Fragment } from 'react';
 
 import { Provider } from 'react-redux';
 import reactionStore from './components/store/reactionStore';
@@ -9,17 +9,16 @@ import Navbar from './components/Navbar';
 
 import './app.css';
 
-export default class App extends Component {
-  render() {
-    return (
-      <>
-        <Provider store={reactionStore}>
-          <Navbar />
-          <Header />
-          <ReactionContainer />
-          <Footer />
-        </Provider>
-      </>
-    );
-  }
-}
+const App = () => {
+  return (
+    <Fragment>
+      <Provider store={reactionStore}>
+        <Navbar />
+        <Header />
+        <ReactionContainer />
+        <Footer />
+      </Provider>
+    </Fragment>
+  );
+};
+export default App;

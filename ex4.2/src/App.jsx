@@ -1,6 +1,5 @@
 import './app.css';
 
-// Det gamla sättet att skapa komponenter...
 const App = () => {
   return (
     <section className='container'>
